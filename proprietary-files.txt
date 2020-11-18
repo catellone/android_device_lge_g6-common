@@ -691,11 +691,11 @@ etc/camera/selfie/7_selfie.dat:vendor/etc/camera/selfie/7_selfie.dat
 etc/camera/selfie/8_selfie.dat:vendor/etc/camera/selfie/8_selfie.dat
 etc/camera/selfie/9_selfie.dat:vendor/etc/camera/selfie/9_selfie.dat
 
-# Dolby Vision
--vendor/app/DolbyVisionService/DolbyVisionService.apk
+# Dolby Vision - from V30B H870
+-app/DolbyVisionService/DolbyVisionService.apk
 vendor/etc/dolby_vision_lgeg6_RevB_v008.cfg:vendor/etc/dolby_vision.cfg
-vendor/lib/libdovi.so
-vendor/lib64/libdovi.so
+lib/libdovi.so
+lib64/libdovi.so
 
 # Fingerprint
 vendor/bin/fpc_early_loader
@@ -728,5 +728,5 @@ media/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev7_S_data2.bin:vendor/firmware/b
 media/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin:vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data1.bin
 media/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin:vendor/firmware/bu24235_dl_program_Lucy_MTMAct_ICG1020S_rev8_S_data2.bin
 
-# Postprocessing
+# Postprocessing - from V30B H870
 vendor/etc/qdcm_calib_data_SW49408_1440_2880_cmd_mode_dsc_dsi_panel.xml
