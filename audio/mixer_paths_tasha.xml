@@ -2837,6 +2837,12 @@
 		<ctl name="DEC7 Volume" value="88" />
     </path>
 
+        <path name="unprocessed-stereo-mic">
+            <path name="voice-rec-dmic-ef" />
+               <ctl name="DEC7 Volume" value="110" />
+               <ctl name="DEC8 Volume" value="110" />
+    </path>
+	
     <path name="unprocessed-dual-mic">
         <path name="dmic-endfire" />
 		<ctl name="DEC7 Volume" value="88" />
