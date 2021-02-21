@@ -697,6 +697,9 @@ vendor/etc/dolby_vision_lgeg6_RevB_v008.cfg:vendor/etc/dolby_vision.cfg
 lib/libdovi.so
 lib64/libdovi.so
 
+# Fast Charge - from H870 V20J
+vendor/bin/hvdcp_opti
+
 # Fingerprint Sensors - from Stock H870 V20I
 vendor/lib/hw/fingerprint.msm8996.so
 vendor/lib64/hw/fingerprint.msm8996.so
