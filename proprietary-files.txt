@@ -1,18 +1,11 @@
-# Audio ACBD
-vendor/etc/acdbdata/Bluetooth_cal.acdb
+# Audio ACBD - from V30B H870
 vendor/etc/acdbdata/General_cal.acdb
 vendor/etc/acdbdata/Global_cal.acdb
-vendor/etc/acdbdata/Handset_cal.acdb
-vendor/etc/acdbdata/Hdmi_cal.acdb
+vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
+vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
-vendor/etc/acdbdata/v2/Bluetooth_cal.acdb
-vendor/etc/acdbdata/v2/General_cal.acdb
-vendor/etc/acdbdata/v2/Global_cal.acdb
-vendor/etc/acdbdata/v2/Handset_cal.acdb
-vendor/etc/acdbdata/v2/Hdmi_cal.acdb
-vendor/etc/acdbdata/v2/Headset_cal.acdb
-vendor/etc/acdbdata/v2/Speaker_cal.acdb
+vendor/etc/acdbdata/Handset_cal.acdb
 
 # Camera
 vendor/bin/mm-qcamera-app
