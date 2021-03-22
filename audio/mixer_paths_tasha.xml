@@ -2163,7 +2163,7 @@
     </path>
 
     <path name="handset-mic">
-        <path name="hifi-recorder-speech-90">
+        <path name="hifi-recorder-speech-90" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
         <ctl name="AIF1_CAP Mixer SLIM TX7" value="1" />
         <ctl name="AIF1_CAP Mixer SLIM TX8" value="1" />
@@ -2809,7 +2809,7 @@
     </path>
 
     <path name="unprocessed-mic">
-        <path name="camcorder-0">
+        <path name="camcorder-0" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
         <ctl name="AIF1_CAP Mixer SLIM TX7" value="1" />
         <ctl name="AIF1_CAP Mixer SLIM TX8" value="1" />
