@@ -2823,6 +2823,21 @@
         <ctl name="DEC8 Volume" value="84" />
     </path>
 
+    <path name="unprocessed-stereo-mic">
+        <path name="camcorder-0" />
+        <ctl name="SLIM_0_TX Channels" value="Two" />
+        <ctl name="AIF1_CAP Mixer SLIM TX7" value="1" />
+        <ctl name="AIF1_CAP Mixer SLIM TX8" value="1" />
+        <ctl name="SLIM TX7 MUX" value="DEC7" />
+        <ctl name="ADC MUX7" value="DMIC" />
+        <ctl name="DMIC MUX7" value="DMIC2" />
+        <ctl name="SLIM TX8 MUX" value="DEC8" />
+        <ctl name="ADC MUX8" value="DMIC" />
+        <ctl name="DMIC MUX8" value="DMIC0" />
+        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC8 Volume" value="84" />
+    </path>
+
     <path name="unprocessed-dual-mic">
         <path name="dmic-endfire" />
 		<ctl name="DEC7 Volume" value="88" />
@@ -3469,8 +3484,8 @@
 
     <path name="qvoice-mic">
         <path name="dmic-endfire" />
-        <ctl name="DEC7 Volume" value="105" />
-        <ctl name="DEC8 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
+        <ctl name="DEC8 Volume" value="111" />
     </path>
 
     <path name="vr-mic">
@@ -3771,8 +3786,8 @@
      <path name="voice-speaker-dmic-ef-nxp">
         <path name="speaker-dmic-endfire" />
         <ctl name="IIR1 INP1 MUX" value="DEC7" />
-        <ctl name="DEC7 Volume" value="105" />
-        <ctl name="DEC8 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
+        <ctl name="DEC8 Volume" value="111" />
     </path>
 
     <path name="voice-headset-mic-fluence">
@@ -3784,44 +3799,44 @@
     <path name="loopback-speaker-mic">
         <path name="dmic3" />
         <ctl name="SLIM_0_TX SampleRate" value="KHZ_192" />
-        <ctl name="DEC7 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
     <path name="loopback-headset-mic">
         <path name="headset-mic" />
-        <ctl name="DEC0 Volume" value="105" />
+        <ctl name="DEC0 Volume" value="111" />
         <ctl name="ADC2 Volume" value="12" />
     </path>
 
     <path name="loopback-handset-mic">
         <path name="handset-mic" />
         <ctl name="SLIM_0_TX SampleRate" value="KHZ_192" />
-        <ctl name="DEC7 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
     <path name="loopback-third-mic">
         <path name="dmic5" />
         <ctl name="SLIM_0_TX SampleRate" value="KHZ_192" />
-        <ctl name="DEC7 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
     <path name="loopback-submic1">
         <path name="dmic3" />
         <ctl name="SLIM_0_TX SampleRate" value="KHZ_192" />
-        <ctl name="DEC7 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
     <path name="loopback-submic2">
         <path name="dmic1" />
         <ctl name="SLIM_0_TX SampleRate" value="KHZ_192" />
-        <ctl name="DEC7 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
 <!-- speaker loopback use submic3 for h1 -->
     <path name="loopback-submic3">
         <path name="dmic3" />
         <ctl name="SLIM_0_TX SampleRate" value="KHZ_192" />
-        <ctl name="DEC7 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
      <path name="loopback-bt-mic">
@@ -3874,7 +3889,7 @@
         <ctl name="AMIC MUX8" value="ADC2" />
         <ctl name="DEC5 Volume" value="90" />
         <ctl name="DEC6 Volume" value="90" />
-        <ctl name="DEC7 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
         <ctl name="DEC8 Volume" value="90" />
     </path>
 
@@ -3900,36 +3915,36 @@
 
     <path name="voip-speaker-mic">
         <path name="speaker-mic" />
-        <ctl name="DEC7 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
 <!-- depending on dual mic -->
     <path name="voip-speaker-dmic-ef">
         <path name="speaker-dmic-endfire" />
-        <ctl name="DEC7 Volume" value="105" />
-        <ctl name="DEC8 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
+        <ctl name="DEC8 Volume" value="111" />
     </path>
 
 <!-- depending on dual mic -->
     <path name="voip-speaker-dmic-ef-nxp">
         <path name="speaker-dmic-endfire" />
         <ctl name="IIR1 INP1 MUX" value="DEC7" />
-        <ctl name="DEC7 Volume" value="105" />
-        <ctl name="DEC8 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
+        <ctl name="DEC8 Volume" value="111" />
     </path>
 
     <path name="voip-handset-mic">
         <path name="handset-mic" />
-        <ctl name="DEC7 Volume" value="105" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
 <!-- depending on dual mic -->
     <path name="voip-dmic-ef">
         <path name="dmic-endfire" />
         <ctl name="ADC4 Volume" value="20" />
-        <ctl name="DEC3 Volume" value="105" />
+        <ctl name="DEC3 Volume" value="111" />
         <ctl name="ADC3 Volume" value="20" />
-        <ctl name="DEC4 Volume" value="105" />
+        <ctl name="DEC4 Volume" value="111" />
     </path>
 
     <path name="voip-headset-mic">
