@@ -2681,6 +2681,8 @@
     <path name="voice-speaker-dmic-ef">
         <ctl name="DMIC Delay" value="ON" />
         <path name="speaker-dmic-endfire" />
+        <ctl name="DEC7 Volume" value="74" />
+        <ctl name="DEC8 Volume" value="74" />
     </path>
 
     <path name="voice-rec-dmic-ef">
