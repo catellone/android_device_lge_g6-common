@@ -13,3 +13,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Blur
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.sf.disable_blurs=1
+
+# Perf
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.post_boot.parsed=1
